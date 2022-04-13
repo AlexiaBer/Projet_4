@@ -1681,6 +1681,10 @@ mark {
     text-transform: capitalize
 }
 
+.text-medium-size {
+    font-size: 18px;
+}
+
 .text-muted {
     color: #777
 }
@@ -2012,7 +2016,8 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+    font-size:28px;
 }
 
 .col-lg-1,
