@@ -1824,6 +1824,10 @@ ul ul {
     padding-left: 5px
 }
 
+li {
+    padding:12px;
+}
+
 dl {
     margin-top: 0;
     margin-bottom: 20px
@@ -6028,17 +6032,13 @@ a.badge:hover {
 }
 
 @media screen and (min-width:768px) {
-    .jumbotron {
-        padding-top: 48px;
-        padding-bottom: 48px
-    }
-    .container .jumbotron,
-    .container-fluid .jumbotron {
+
+    .container ,
+    .container-fluid {
         padding-right: 60px;
         padding-left: 60px
     }
-    .jumbotron .h1,
-    .jumbotron h1 {
+    .h1, h1 {
         font-size: 63px
     }
 }
