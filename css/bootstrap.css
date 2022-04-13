@@ -1436,8 +1436,8 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
-    height: auto
+    object-fit: cover;
+    width: 100%;
 }
 
 .img-rounded {
@@ -1683,6 +1683,10 @@ mark {
 
 .text-medium-size {
     font-size: 18px;
+}
+
+.text-small-size {
+    font-size:16px;
 }
 
 .text-muted {
@@ -4295,7 +4299,6 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
