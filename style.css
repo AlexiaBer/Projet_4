@@ -123,7 +123,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -221,7 +221,7 @@ a:hover {
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
-.l-bloc a .icon-md,
+.l-bloc a,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
@@ -538,7 +538,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -739,6 +739,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color:#000000
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -771,7 +775,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976c96;
 }
 
 .tc-white {
@@ -829,6 +833,10 @@ li {
     padding:12px;
 }
 
+.text-high-size {
+
+    font-size:25px;
+}
 
 .text-medium-size {
     font-size: 18px;
