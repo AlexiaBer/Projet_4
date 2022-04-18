@@ -282,6 +282,7 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display:flex;
 }
 
 .row.row-no-gutters > [class^="col-"],
