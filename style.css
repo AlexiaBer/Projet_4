@@ -539,6 +539,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, serif;
+    font-display: swap;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -699,7 +700,7 @@ p {
     font-weight: 700;
 }
 
-.social {
+.social1, .social2, .social3, .social4 {
     max-width: 400px;
     margin: auto auto auto auto;
     padding:15px;
@@ -845,6 +846,21 @@ li {
 
 .text-small-size {
     font-size:16px;
+}
+
+.img-size {
+    width:270px;
+    height:270px;
+}
+
+.logo-size {
+    width:100px;
+    height:100px;
+}
+
+.banniere-size {
+    width:217px;
+    height:40px;
 }
 
 @media (max-width: 1024px) {
@@ -1047,6 +1063,11 @@ li {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .img-size {
+        width:570px;
+        height:570px;
     }
 }
 
