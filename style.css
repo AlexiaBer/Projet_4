@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "et-line";
+    src: url(./fonts/et-line.ttf) format ("truetype"), 
+        url(./fonts/et-line.woff) format("woff");
+    font-display:swap;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -700,7 +707,7 @@ p {
     font-weight: 700;
 }
 
-.social1, .social2, .social3, .social4 {
+.social {
     max-width: 400px;
     margin: auto auto auto auto;
     padding:15px;
