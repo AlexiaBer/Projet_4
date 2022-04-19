@@ -10,6 +10,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -526,6 +527,11 @@ button {
     right: 20px;
     z-index: 500;
     transition: all .3s ease-in-out;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    margin-right:50px;
+    align-items: center;
 }
 
 .scrollToTop span {
@@ -792,7 +798,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f3976c96;
     color: #575757!important;
 }
 
