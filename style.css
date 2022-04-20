@@ -520,6 +520,7 @@ button {
     bottom: 20px;
     right: 20px;
     z-index: 500;
+    opacity: 0;
     transition: all .3s ease-in-out;
     display:flex;
     flex-direction: column;
@@ -858,15 +859,6 @@ li {
 .logo-size {
     width:100px;
     height:100px;
-}
-
-.banniere-size {
-    width:217px;
-    height:40px;
-}
-
-.fa-chevron-up {
-    color:#575757;
 }
 
 @media (max-width: 1024px) {
