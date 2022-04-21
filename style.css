@@ -1,3 +1,7 @@
+@font-face {
+
+}
+
 
 body {
     margin: 0;
@@ -861,6 +865,10 @@ li {
     height:100px;
 }
 
+.banniere-size {
+    width:217px;
+    height:40px;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
