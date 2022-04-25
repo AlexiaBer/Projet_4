@@ -872,6 +872,7 @@ li {
     width:217px;
     height:40px;
 }
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
