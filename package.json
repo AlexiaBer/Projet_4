@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "bootstrap": "^3.4.1",
-    "jquery": "^3.0.0"
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "purify-css": "^1.2.5"
   }
 }
